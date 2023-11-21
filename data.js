@@ -10,7 +10,7 @@ function evenOrOdd(numberAsString) {
     return "Odd";
   }
 }
-console.log(evenOrOdd("13"));
+console.log(evenOrOdd("13.66"));
 console.log(evenOrOdd("28"));
 
 // 2
@@ -59,8 +59,8 @@ function largestNumber(a, b, c) {
   })
 }
 
-console.log(largestNumber(1, 2, 3));
-console.log(largestNumber(4, 5, 6));
+console.log("largestnr", largestNumber(1, 2, 3));
+console.log("largestnr", largestNumber(4, 5, 6));
 
 // 5
 function index(array, number) {
@@ -70,7 +70,7 @@ function index(array, number) {
   return array[number]**number;
 }
 
-console.log(index([1, 2, 3, 4, 5, 6], 3));
+console.log("power of N", index([1, 2, 3, 4, 5, 6], 1));
 
 // 6
 function quaterOfTheYear(month) {
